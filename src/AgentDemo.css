@@ -1,0 +1,20 @@
+.agent-demo{
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.agent-control{
+    position: relative;
+    min-width: 50%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parameter-wrapper{
+    text-align: left;
+}

@@ -1,38 +1,157 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.title{
+  font-size: 5rem
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.simulation{
+  position: relative;
+  /* width: 60%; */
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  /* overflow: hidden; */
+
+}
+
+.simulation .canvas-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.controls{
+  position: relative;
+  width: 30%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.inputItem{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-bottom: 10%;
+  font-size: 1.5rem;
+}
+
+.inputItem input{
+  font-size: 1.2rem;
+  padding: 20px 10px;
+  border:none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.controls .buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.controls .buttons button{
+  box-sizing: border-box;
+  width: 40%;
+  font-size: 1.5rem;
+  padding: 12px 0px 12px 0px;
+  border: none;
+  /* border: 1px solid silver; */
+  /* border-radius: 12px; */
+  background-color: white;
+  cursor: pointer;
+}
+
+.controls .buttons button:hover{
+  /* background-color: rgb(171, 207, 210); */
+  /* color: white; */
+  /* border: 1px solid rgb(171, 207, 210); */
+  /* border-bottom: 1px solid rgb(171, 207, 210); */
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 0px;
+}
+
+.controls span{
+  font-size: 0.8rem;
+}
+
+.charts{
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.chart-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.chart-wrapper h3{
+  margin-bottom: 5%;
+  color:white;
+}
+
+.chart-wrapper p{
+  color:white;
+  padding: 1rem;
+}
+
+.section-wrapper{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid silver;
+  border-bottom: 3px solid silver;
+  padding: 10%;
+}
+
+.toggle_controls{
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.toggle_controls *{
+  margin-bottom: 10%;
+  text-align: left;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.content-wrapper > *{
+  margin-bottom: 3rem;
+}
+
+.content-wrapper li{
+  text-align: left;
 }
