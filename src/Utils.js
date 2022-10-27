@@ -1,4 +1,4 @@
-import { blur2, gaussBlur_4 } from "./Blur";
+import { blur2 } from "./Blur";
 
  
 export const getRandomInt = (max) => {

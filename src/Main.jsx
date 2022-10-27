@@ -1,7 +1,7 @@
 import React from 'react'
 import video from "./assets/slime_mould_full.mp4"
-import gif from "./assets/explosion.gif"
-import shading from './assets/shading.png'
+// import gif from "./assets/explosion.gif"
+// import shading from './assets/shading.png'
 import './Main.css'
 
 export default function Main() {
