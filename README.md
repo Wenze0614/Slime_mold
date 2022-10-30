@@ -1,70 +1,46 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Slime Mold Website</h1>
+<hr><p>Modeling of physarum network (Demo: https://prismatic-marzipan-c379b1.netlify.app/ )</p><h2>General Information</h2>
+<hr><ul>
+<li>This is a website built with ReactJS. The first section uses P5.js to draw the slime mold simulation on HTML canvas and animate it. And it allows manipulation of a few parameter.</li>
+</ul><ul>
+<li>The second section uses Recharts to draw the dynamic line charts based on the change in simulation data.</li>
+</ul><ul>
+<li>The third section provides some details on the structure of the model and agents. And section 4 is the agent demo where you can see an abstract version of the agent and manipulate its parameters.</li>
+</ul><h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>React</li>
+</ul><ul>
+<li>Recharts</li>
+</ul><ul>
+<li>P5.JS</li>
+</ul><h2>Setup</h2>
+<hr><p>To set up this website on your local machine, you need to install node.js(https://nodejs.org/).</p><h5>Steps</h5><ul>
+<li>(clone repo to local)`git clone https://github.com/Wenze0614/Slime_mold.git`</li>
+</ul><ul>
+<li>(navigate to the cloned directory and run)`npm install`</li>
+</ul><ul>
+<li>(start a server on your local machine)`npm run start`</li>
+</ul><ul>
+<li>ctrl+c to terminate the server(shortcut may change on different OS)</li>
+</ul><h2>Improvements</h2>
+<hr><ul>
+<li>Parallelization may be used to speed up the simulation as well as increase the size of the simulation</li>
+</ul><ul>
+<li>More parameters can be customized</li>
+</ul><ul>
+<li>More statistical data in section 2</li>
+</ul><h2>Features that can be added</h2>
+<hr><ul>
+<li>Removal of chemoattractants(for testing the tolerance and adaption of the network)</li>
+</ul><ul>
+<li>Food Consumption and transport(currently the food source is static)</li>
+</ul><ul>
+<li>More initialization types(currently only have 2 types)</li>
+</ul><h2>Contact</h2>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/wenze-zhang-7b5669237/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Wenze0614/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
