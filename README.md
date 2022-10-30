@@ -21,11 +21,11 @@
 <li>P5.JS</li>
 </ul><h2>Setup</h2>
 <hr><p>To set up this website on your local machine, you need to install node.js(https://nodejs.org/).</p><h5>Steps</h5><ul>
-<li>(clone repo to local)`git clone https://github.com/Wenze0614/Slime_mold.git`</li>
+<li>(clone repo to local)git clone https://github.com/Wenze0614/Slime_mold.git</li>
 </ul><ul>
-<li>(navigate to the cloned directory and run)`npm install`</li>
+<li>(navigate to the cloned directory and run)npm install</li>
 </ul><ul>
-<li>(start a server on your local machine)`npm run start`</li>
+<li>(start a server on your local machine)npm run start</li>
 </ul><ul>
 <li>ctrl+c to terminate the server(shortcut may change on different OS)</li>
 </ul><h2>Improvements</h2>
