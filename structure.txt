@@ -1,0 +1,19 @@
+The main files that I worked on are listed below:
+
+/src/Agent.js -> Draw the abstracted agent on canvas
+
+/src/AgentDemo.js -> Wrap the agent drawn up on canvas with a few manipulating parameters
+
+/src/App.js -> Controls the whole workflow of the website
+
+/src/Blur.js -> Gaussian Blur code from D3.js
+
+/src/Canvas.js -> Draw the simulation on canvas and update it(conduct one time step in the model and redraw it) after every frame.
+
+/src/CustomDiffusion.js -> A customized diffusion with 3*3 kernel(can change the value of the kernel to have different effect) 
+
+/src/Env.js -> Class of the environment
+
+/src/Partical.js -> Class of the partical/agent
+
+/src/Utils.js -> Contains a few often-used functions
